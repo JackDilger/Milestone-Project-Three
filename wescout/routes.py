@@ -4,5 +4,5 @@ from wescout.models import Region, Player
 
 @app.route("/")
 def home():
-    return render_template("base.html")
-    
+    return render_template("tasks.html")
+
